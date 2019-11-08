@@ -3,7 +3,7 @@
     <div class="list">
 
         <div class="user-box">
-          <div class="avatar" :style="'background-image: url('+url+')'"></div>
+          <div class="avatar" :style="'background-image: url('+user.photoURL+')'"></div>
           <p class="user-name">{{user.name}}</p>
         </div>
         <div class="content" v-html="whisper.content"></div>
